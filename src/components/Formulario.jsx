@@ -2,6 +2,10 @@ import React from "react";
 import { Formik, Form, Field } from "formik";
 
 const Formulario = () => {
+  const handleSubmit = (valores) => {
+    
+  }
+
   return (
     <div className="bg-white mt-10 px-5 py-10 rounded-md shadow-md md:w-3/4 mx-auto">
       <h1 className="text-gray-600 font-bold text-xl text-center">
@@ -15,11 +19,14 @@ const Formulario = () => {
           telefono: "",
           notas: "",
         }}
+        onSubmit={(values) => {
+          handleSubmit(values)
+        }
       >
         {() => (
           <Form className="mt-10 ">
             <div className="mb-4">
-              <label className="text-gray-800" htmlfor="nombre">
+              <label className="text-gray-800" htmlFor="nombre">
                 Nombre:
               </label>
               <Field
@@ -31,7 +38,7 @@ const Formulario = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="text-gray-800" htmlfor="empresa">
+              <label className="text-gray-800" htmlFor="empresa">
                 Empresa:
               </label>
               <Field
@@ -43,7 +50,7 @@ const Formulario = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="text-gray-800" htmlfor="email">
+              <label className="text-gray-800" htmlFor="email">
                 Email:
               </label>
               <Field
@@ -55,7 +62,7 @@ const Formulario = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="text-gray-800" htmlfor="telefono">
+              <label className="text-gray-800" htmlFor="telefono">
                 Telefono:
               </label>
               <Field
@@ -67,7 +74,7 @@ const Formulario = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="text-gray-800" htmlfor="notas">
+              <label className="text-gray-800" htmlFor="notas">
                 Notas:
               </label>
               <Field
@@ -76,7 +83,7 @@ const Formulario = () => {
                 type="text"
                 className="mt-2 block w-full p-3 bg-gray-50 h-40"
                 placeholder="Notas del Cliente"
-                name="cliente"
+                name="notas"
               />
             </div>
             <input
