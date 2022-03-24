@@ -1,36 +1,12 @@
 {
   "clientes": [
     {
-      "nombre": "Tomas",
-      "empresa": "Jouve",
-      "email": "tomidziurdiza@gmail.com",
-      "telefono": "2324464946",
-      "notas": "Hola",
-      "id": 1
-    },
-    {
       "nombre": "Valen",
       "empresa": "Duo",
       "email": "valemadonia@hotmail.com",
       "telefono": "123456",
       "notas": "hola",
       "id": 2
-    },
-    {
-      "nombre": "Mili Editado",
-      "empresa": "Logistica",
-      "email": "mili@mili.com",
-      "telefono": "",
-      "notas": "",
-      "id": 3
-    },
-    {
-      "nombre": "Franky",
-      "empresa": "Casa",
-      "email": "correo@correo.com",
-      "telefono": "1234",
-      "notas": "holawefwf",
-      "id": 4
     }
   ]
 }
