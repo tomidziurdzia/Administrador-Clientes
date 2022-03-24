@@ -25,7 +25,9 @@ const VerCliente = () => {
 
   const { nombre, empresa, email, telefono, notas } = cliente;
 
-  return (
+  return Object.keys(cliente).length === 0 ? (
+    <p>No hay Resultados</p>
+  ) : (
     <div>
       {cargando ? (
         "cargando"
