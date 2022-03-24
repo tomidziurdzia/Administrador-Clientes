@@ -17,12 +17,20 @@
       "id": 2
     },
     {
-      "nombre": "Mili",
+      "nombre": "Mili Editado",
       "empresa": "Logistica",
       "email": "mili@mili.com",
       "telefono": "",
       "notas": "",
       "id": 3
+    },
+    {
+      "nombre": "Franky",
+      "empresa": "Casa",
+      "email": "correo@correo.com",
+      "telefono": "1234",
+      "notas": "holawefwf",
+      "id": 4
     }
   ]
 }
